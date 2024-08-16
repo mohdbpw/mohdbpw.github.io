@@ -22,7 +22,7 @@ $(function () {
             $this.prop("disabled", true);
 
             $.ajax({
-                url: "http://192.168.31.136:8000/send-email",
+                url: "https://pleasant-antonella-mohd-org-00fca800.koyeb.app/send-email",
                 type: "POST",
                 data: email_data,
                 contentType: "application/json",
