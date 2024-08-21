@@ -22,7 +22,7 @@ $(function () {
             $this.prop("disabled", true);
 
             $.ajax({
-                url: "https://pleasant-antonella-mohd-org-00fca800.koyeb.app/send-email",
+                url: "https://my-website-form.onrender.com/send-email",
                 type: "POST",
                 data: email_data,
                 contentType: "application/json",
