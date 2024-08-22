@@ -1,0 +1,6 @@
+# Allow all web crawlers access to the entire site
+User-agent: *
+Disallow:
+
+# Sitemap location
+Sitemap: https://mohdbpw.github.io/sitemap.xml
