@@ -1604,10 +1604,20 @@ a:focus {
         font-size: 16px;
     }
 
+    /* Extra added start */
+    .footer .footer-menu {
+        flex-direction: column;
+    }
+    /* Extra added end */
+
     .footer .footer-menu p {
         font-size: 16px;
         line-height: 16px;
         padding: 0 5px;
+
+        /* Extra added start*/
+        border: none;
+        /* Extra added end*/
     }
 }
 
